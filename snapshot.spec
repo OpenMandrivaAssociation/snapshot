@@ -9,6 +9,8 @@ URL:            https://gitlab.gnome.org/GNOME/snapshot
 Source0:        https://download.gnome.org/sources/snapshot/45/snapshot-%{tarball_version}.tar.xz
 
 BuildRequires:  meson
+BuildRequires:  rust
+BuildRequires:  cargo
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
