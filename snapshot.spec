@@ -1,3 +1,6 @@
+## Workaround for empty debug
+%define _empty_manifest_terminate_build 0
+
 %global tarball_version %%(echo %{version} | tr '~' '.')
  
 Name:           snapshot
@@ -11,13 +14,14 @@ Source0:        https://download.gnome.org/sources/snapshot/45/snapshot-%{tarbal
 BuildRequires:  meson
 BuildRequires:  rust
 BuildRequires:  cargo
+BuildRequires:  appstream < 1.0.0
+BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
 BuildRequires:  pkgconfig(gstreamer-video-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
-BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(gstreamer-1.0)
 ## for camerabin
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
