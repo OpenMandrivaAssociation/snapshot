@@ -14,6 +14,7 @@ Source0:        https://download.gnome.org/sources/snapshot/45/snapshot-%{tarbal
 BuildRequires:  meson
 BuildRequires:  rust
 BuildRequires:  cargo
+BuildRequires:  gettext
 BuildRequires:  appstream < 1.0.0
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(glib-2.0)
