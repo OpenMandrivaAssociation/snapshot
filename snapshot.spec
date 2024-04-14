@@ -4,8 +4,8 @@
 %global tarball_version %%(echo %{version} | tr '~' '.')
  
 Name:           snapshot
-Version:        46.1
-Release:        2
+Version:        46.2
+Release:        1
 Summary:        Take pictures and videos
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/snapshot
