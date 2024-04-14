@@ -5,7 +5,7 @@
  
 Name:           snapshot
 Version:        46.1
-Release:        1
+Release:        2
 Summary:        Take pictures and videos
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/snapshot
