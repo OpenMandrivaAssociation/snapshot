@@ -15,7 +15,7 @@ BuildRequires:  meson
 BuildRequires:  rust
 BuildRequires:  cargo
 BuildRequires:  gettext
-BuildRequires:  appstream < 1.0.0
+BuildRequires:  appstream
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gstreamer-1.0)
