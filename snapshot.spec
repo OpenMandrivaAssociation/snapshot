@@ -10,6 +10,7 @@ Summary:        Take pictures and videos
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/snapshot
 Source0:        https://download.gnome.org/sources/snapshot/45/snapshot-%{tarball_version}.tar.xz
+Source1:        vendor.tar.xz
 
 BuildRequires:  meson
 BuildRequires:  rust
@@ -37,7 +38,7 @@ Take pictures and videos on your computer, tablet, or phone.
  
  
 %prep
-%autosetup -n snapshot-%{tarball_version} a2 -p1
+%autosetup -n snapshot-%{tarball_version} a1 -p1
 
 ## needed only if we use own vendored dependencies
 #mkdir .cargo
