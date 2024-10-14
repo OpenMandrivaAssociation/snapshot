@@ -4,13 +4,13 @@
 %global tarball_version %%(echo %{version} | tr '~' '.')
  
 Name:           snapshot
-Version:        47.0
+Version:        47.1
 Release:        1
 Summary:        Take pictures and videos
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/snapshot
 Source0:        https://download.gnome.org/sources/snapshot/45/snapshot-%{tarball_version}.tar.xz
-Source1:        vendor.tar.xz
+#Source1:        vendor.tar.xz
 
 BuildRequires:  meson
 BuildRequires:  rust
