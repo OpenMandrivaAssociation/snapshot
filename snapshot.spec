@@ -18,6 +18,7 @@ BuildRequires:  cargo
 BuildRequires:  gettext
 BuildRequires:  appstream
 BuildRequires:  appstream-util
+BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
