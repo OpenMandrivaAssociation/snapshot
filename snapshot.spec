@@ -61,6 +61,7 @@ Take pictures and videos on your computer, tablet, or phone.
 %{_bindir}/snapshot
 %{_datadir}/applications/org.gnome.Snapshot.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Snapshot.gschema.xml
+%{_datadir}/dbus-1/services/org.gnome.Snapshot.service
 %{_datadir}/icons/hicolor/scalable/apps/org.gnome.Snapshot*.svg
 %{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Snapshot-symbolic.svg
 %{_datadir}/snapshot/
