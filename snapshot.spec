@@ -4,7 +4,7 @@
 %global tarball_version %%(echo %{version} | tr '~' '.')
  
 Name:           snapshot
-Version:        49.0
+Version:        49.1
 Release:        1
 Summary:        Take pictures and videos
 License:        GPL-3.0-or-later
