@@ -28,6 +28,7 @@ BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(lcms2)
 BuildRequires:  pkgconfig(libseccomp)
 BuildRequires:  pkgconfig(gstreamer-1.0)
+BuildRequires:  pkgconfig(glycin-2)
 ## for camerabin
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
 BuildRequires:  pkgconfig(gstreamer-video-1.0)
