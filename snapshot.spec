@@ -5,7 +5,7 @@
  
 Name:           snapshot
 Version:        51.0
-Release:        2
+Release:        3
 Summary:        Take pictures and videos
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/GNOME/snapshot
@@ -33,7 +33,8 @@ BuildRequires:  pkgconfig(glycin-2)
 BuildRequires:  pkgconfig(gstreamer-plugins-bad-1.0)
 BuildRequires:  pkgconfig(gstreamer-video-1.0)
 ## For hicolor icon theme directories
-Requires:       hicolor-icon-theme
+Requires: hicolor-icon-theme
+Requires: gstreamer-plugins-rs
 
 Provides:       bundled(crate(aperture)) = 0.3.1
  
